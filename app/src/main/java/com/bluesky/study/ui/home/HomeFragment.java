@@ -19,6 +19,7 @@ import com.bluesky.study.R;
 import com.bluesky.study.databinding.FragmentHomeBinding;
 import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.MediaItem;
+import com.google.android.exoplayer2.Player;
 
 import java.io.File;
 
@@ -58,14 +59,19 @@ public class HomeFragment extends Fragment {
         // Set the media item to be played.
         mPlayer.setMediaItem(mediaItem);
         // Prepare the player.
-        mPlayer.prepare();
+        //mPlayer.prepare();
         // Start the playback.
-        mPlayer.play();
+        //mPlayer.play();
+        mPlayer.setRepeatMode(ExoPlayer.REPEAT_MODE_ALL);
+        mPlayer.addListener(new Player.Listener() {
+
+        });
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+        mPlayer.release();
     }
 }
