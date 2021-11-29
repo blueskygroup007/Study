@@ -58,14 +58,16 @@ public class HomeFragment extends Fragment {
         MediaItem mediaItem = MediaItem.fromUri(Uri.fromFile(file));
         // Set the media item to be played.
         mPlayer.setMediaItem(mediaItem);
-        // Prepare the player.
-        //mPlayer.prepare();
-        // Start the playback.
-        //mPlayer.play();
+
         mPlayer.setRepeatMode(ExoPlayer.REPEAT_MODE_ALL);
         mPlayer.addListener(new Player.Listener() {
 
         });
+
+        // Prepare the player.
+        mPlayer.prepare();
+        // Start the playback.
+        //mPlayer.play();
     }
 
     @Override

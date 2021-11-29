@@ -5,7 +5,14 @@
       <map>
         <entry key="..\:/ASProject/Study/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/ASProject/Study/app/src/main/res/layout/content_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/layout/custom_controls.xml" value="0.36614583333333334" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/layout/exo_player_control_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/layout/fragment_gallery.xml" value="0.36614583333333334" />
         <entry key="..\:/ASProject/Study/app/src/main/res/layout/fragment_home.xml" value="0.36614583333333334" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/layout/fragment_slideshow.xml" value="0.36614583333333334" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/layout/item_recycler_gallery.xml" value="0.36614583333333334" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/menu/activity_main_drawer.xml" value="0.36614583333333334" />
+        <entry key="..\:/ASProject/Study/app/src/main/res/menu/main.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

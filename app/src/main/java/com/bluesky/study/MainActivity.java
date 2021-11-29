@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.Toast;
 
+import com.bluesky.study.utils.PreferenceUtils;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -54,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
+        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO 手动添加preference记录
+            }
+        });
         requestPermissions();
     }
 
