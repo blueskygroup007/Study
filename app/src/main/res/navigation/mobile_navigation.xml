@@ -19,6 +19,10 @@
         <action
             android:id="@+id/action_nav_gallery_to_nav_slideshow"
             app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true" />
     </fragment>
 
     <fragment
